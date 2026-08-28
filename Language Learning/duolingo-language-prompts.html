@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>这就是多邻国最不想你知道的事</title>
+  <style>
+    :root {
+      --wood: #6f4529;
+      --wood-dark: #402818;
+      --paper: #fff8ed;
+      --ink: #27211c;
+      --muted: #73665a;
+      --green: #2d8f5a;
+      --line: rgba(111, 69, 41, 0.18);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background:
+        linear-gradient(90deg, rgba(255,255,255,0.07), rgba(0,0,0,0.04)),
+        repeating-linear-gradient(90deg, #51311e 0, #6f4529 46px, #895938 92px, #5a3822 138px);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+
+    main {
+      width: min(920px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: 44px 0 72px;
+    }
+
+    article {
+      padding: clamp(28px, 6vw, 68px);
+      background:
+        linear-gradient(135deg, rgba(255,255,255,0.78), rgba(255,248,235,0.94)),
+        var(--paper);
+      border: 1px solid rgba(255,255,255,0.58);
+      border-radius: 8px;
+      box-shadow: 0 28px 72px rgba(29, 17, 8, 0.38);
+    }
+
+    .kicker {
+      margin: 0 0 14px;
+      color: var(--green);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 760px;
+      color: var(--wood-dark);
+      font-family: Georgia, "Times New Roman", "Songti SC", serif;
+      font-size: clamp(34px, 5.6vw, 58px);
+      font-weight: 500;
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .deck {
+      max-width: 720px;
+      margin: 22px 0 36px;
+      color: var(--muted);
+      font-size: clamp(16px, 1.9vw, 18px);
+      line-height: 1.8;
+    }
+
+    .prompt-list {
+      display: grid;
+      gap: 18px;
+      margin-top: 34px;
+    }
+
+    section {
+      padding: clamp(20px, 3vw, 28px);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255,255,255,0.46);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      color: var(--wood);
+      font-family: Georgia, "Times New Roman", "Songti SC", serif;
+      font-size: clamp(22px, 3vw, 30px);
+      font-weight: 500;
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 1em;
+      max-width: 740px;
+      font-size: clamp(16px, 1.8vw, 18px);
+      line-height: 1.82;
+    }
+
+    .prompt {
+      margin: 0;
+      padding: 16px 18px;
+      border-left: 4px solid var(--green);
+      background: #fffaf3;
+      color: var(--ink);
+      font-size: clamp(16px, 1.8vw, 18px);
+      line-height: 1.75;
+      white-space: pre-wrap;
+    }
+
+    .closing {
+      margin-top: 34px;
+      padding-top: 22px;
+      border-top: 1px solid var(--line);
+      color: var(--wood-dark);
+      font-size: clamp(18px, 2.1vw, 22px);
+      font-weight: 650;
+    }
+
+    @media (max-width: 560px) {
+      main {
+        width: min(100% - 18px, 920px);
+        padding: 18px 0 36px;
+      }
+
+      article {
+        padding: 26px 20px 34px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <p class="kicker">Language Learning · Prompts</p>
+      <h1>这就是多邻国最不想你知道的事</h1>
+      <p class="deck">复制这 7 条提示词，学任何语言都快一截。把里面的 <strong>[语言]</strong> 换成你想学的语言，把目标和场景换成你自己的真实需求，然后直接开始练。</p>
+
+      <div class="prompt-list">
+        <section>
+          <h2>1. 私人导师</h2>
+          <p class="prompt">充当我的[语言]私人导师。先评估我现在是[初级/中级]，再按我的目标[旅行/会话/工作]做一份4周计划。</p>
+        </section>
+
+        <section>
+          <h2>2. 先背最有用的100词</h2>
+          <p class="prompt">按我的目标[旅行/日常对话]，列出[语言]最有用的100个词和短语。按场景和优先级排。</p>
+        </section>
+
+        <section>
+          <h2>3. 真对话，立刻纠错</h2>
+          <p class="prompt">用[语言]和我聊[话题]。每句都纠错，讲清楚为什么错，并告诉我母语者会怎么说。</p>
+        </section>
+
+        <section>
+          <h2>4. 语法讲人话</h2>
+          <p class="prompt">用简单的[语言]解释这个语法：[粘贴概念]。给3个清楚例子，再补1个最常见的坑。</p>
+        </section>
+
+        <section>
+          <h2>5. 专治发音</h2>
+          <p class="prompt">帮我改进[单词/短语]的发音。拆成音素，并指出英语使用者最容易发错的地方。</p>
+        </section>
+
+        <section>
+          <h2>6. 一次记住</h2>
+          <p class="prompt">给这些词做故事、画面或记忆法：[粘贴列表]。要好记、难忘。</p>
+        </section>
+
+        <section>
+          <h2>7. 每天20分钟就够</h2>
+          <p class="prompt">为[语言]设计一套20分钟日常习惯，包含说、听、读、复习。要能坚持。</p>
+        </section>
+      </div>
+
+      <p class="closing">先把[语言]换成英语，用第1条开练。</p>
+    </article>
+  </main>
+</body>
+</html>
