@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Quiet Power of Being Yourself</title>
+  <style>
+    :root {
+      --walnut: #5b3a24;
+      --cedar: #8a5a36;
+      --paper: #fff8ec;
+      --ink: #2b2119;
+      --muted: #7b6657;
+      --line: rgba(91, 58, 36, 0.2);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        linear-gradient(90deg, rgba(255, 255, 255, 0.06), rgba(0, 0, 0, 0.04)),
+        repeating-linear-gradient(
+          90deg,
+          #6f4427 0,
+          #7d4f2f 42px,
+          #653d25 84px,
+          #895b37 126px
+        );
+    }
+
+    .page {
+      width: min(880px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0;
+    }
+
+    article {
+      position: relative;
+      overflow: hidden;
+      padding: clamp(32px, 7vw, 72px);
+      background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.72), rgba(255, 247, 231, 0.9)),
+        var(--paper);
+      border: 1px solid rgba(255, 255, 255, 0.65);
+      border-radius: 8px;
+      box-shadow: 0 24px 70px rgba(33, 20, 10, 0.38);
+    }
+
+    article::before {
+      content: "";
+      position: absolute;
+      inset: 18px;
+      pointer-events: none;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+    }
+
+    .kicker {
+      margin: 0 0 18px;
+      color: var(--cedar);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 680px;
+      color: var(--walnut);
+      font-size: clamp(2.35rem, 6vw, 4.35rem);
+      font-weight: 500;
+      line-height: 1.04;
+      letter-spacing: 0;
+    }
+
+    .rule {
+      width: 88px;
+      height: 3px;
+      margin: 34px 0 38px;
+      background: linear-gradient(90deg, var(--cedar), rgba(138, 90, 54, 0));
+    }
+
+    p {
+      max-width: 680px;
+      margin: 0 0 1.45em;
+      font-size: clamp(1.08rem, 2vw, 1.28rem);
+      line-height: 1.78;
+    }
+
+    .lead {
+      color: var(--walnut);
+      font-size: clamp(1.28rem, 2.5vw, 1.62rem);
+      line-height: 1.58;
+    }
+
+    .closing {
+      margin-bottom: 0;
+      color: var(--walnut);
+      font-style: italic;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.86rem;
+    }
+
+    @media (max-width: 560px) {
+      .page {
+        width: min(100% - 20px, 880px);
+        padding: 20px 0;
+      }
+
+      article {
+        padding: 34px 24px;
+      }
+
+      article::before {
+        inset: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <article>
+      <p class="kicker">Top Thought</p>
+      <h1>The Quiet Power of Being Yourself</h1>
+      <div class="rule"></div>
+
+      <p class="lead">Whether you are looking for love or friendship, the best method comes down to three words: be yourself.</p>
+
+      <p>Express your values. Let your real life show. Then wait for people who resonate with that truth to come closer. Do not keep calculating what to say or how to act so that someone will like you. Living that way makes you false, tired, and deeply depleted.</p>
+
+      <p>Even if you do attract someone that way, you will still have to keep performing. Sooner or later, it will fall apart.</p>
+
+      <p>Being yourself has energy because it is honest.</p>
+
+      <p>And you do not need to be especially attractive to one specific person. Whoever's approval you crave becomes the person who owns you. Whether one person likes you or not is not as important as it seems.</p>
+
+      <p class="closing">People on your frequency will stay. The ones who stay are the right ones. Do not lose yourself for anyone.</p>
+
+      <footer>Translated and adapted from the original Chinese note.</footer>
+    </article>
+  </main>
+</body>
+</html>
