@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Career and Startup Choices</title>
+  <style>
+    :root {
+      --wood: #6d452b;
+      --wood-dark: #442b1c;
+      --paper: #fff8ee;
+      --ink: #27211b;
+      --muted: #79685b;
+      --green: #1f8f55;
+      --line: rgba(109, 69, 43, 0.2);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background:
+        linear-gradient(90deg, rgba(255,255,255,0.07), rgba(0,0,0,0.04)),
+        repeating-linear-gradient(90deg, #53341f 0, #6d452b 44px, #865936 88px, #5c3923 132px);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+
+    main {
+      width: min(860px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: 48px 0 72px;
+    }
+
+    article {
+      padding: clamp(30px, 6vw, 70px);
+      background:
+        linear-gradient(135deg, rgba(255,255,255,0.78), rgba(255,248,235,0.94)),
+        var(--paper);
+      border: 1px solid rgba(255,255,255,0.58);
+      border-radius: 8px;
+      box-shadow: 0 28px 72px rgba(27, 16, 8, 0.38);
+    }
+
+    .kicker {
+      margin: 0 0 14px;
+      color: var(--green);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--wood-dark);
+      font-family: Georgia, "Times New Roman", "Songti SC", serif;
+      font-size: clamp(34px, 6vw, 58px);
+      font-weight: 500;
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .deck {
+      margin: 20px 0 38px;
+      max-width: 680px;
+      color: var(--muted);
+      font-size: clamp(16px, 2vw, 18px);
+      line-height: 1.75;
+    }
+
+    .quote {
+      margin: 28px 0;
+      padding: clamp(22px, 4vw, 34px);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255,255,255,0.45);
+    }
+
+    .quote p {
+      margin: 0;
+      color: var(--wood-dark);
+      font-family: Georgia, "Times New Roman", "Songti SC", serif;
+      font-size: clamp(24px, 4vw, 38px);
+      line-height: 1.55;
+      letter-spacing: 0;
+    }
+
+    .mark {
+      color: var(--green);
+      text-decoration: underline;
+      text-decoration-thickness: 0.34em;
+      text-decoration-color: rgba(31, 143, 85, 0.24);
+      text-underline-offset: -0.08em;
+      text-decoration-skip-ink: none;
+    }
+
+    footer {
+      margin-top: 38px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 560px) {
+      main {
+        width: min(100% - 18px, 860px);
+        padding: 18px 0 36px;
+      }
+
+      article {
+        padding: 28px 20px 34px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <p class="kicker">Career · Startup Choices</p>
+      <h1>Career and Startup Choices</h1>
+      <p class="deck">只摘录图片中绿色划线的观点，整理成一页关于事业与创业选择的阅读笔记。</p>
+
+      <section class="quote">
+        <p><span class="mark">先建立足够的知识基础，为未来创业做准备。</span> 真正深入理解 LLM 之后，自然会产生更好的创业想法；相比之下，17 岁时仅凭自己当时所掌握的知识去创业，能想到的创业点子要逊色得多。</p>
+      </section>
+
+      <section class="quote">
+        <p><span class="mark">不要为了创业而刻意寻找创业点子。</span> 先深入了解某个重要领域，解决自己感兴趣的问题，好的创业想法往往会在这个过程中自然出现。</p>
+      </section>
+
+      <footer>整理自用户提供截图中的绿色划线内容。</footer>
+    </article>
+  </main>
+</body>
+</html>
