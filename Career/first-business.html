@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your First Business</title>
+  <style>
+    :root {
+      --wood: #6d452b;
+      --wood-dark: #442b1c;
+      --paper: #fff8ee;
+      --ink: #27211b;
+      --muted: #79685b;
+      --green: #1f8f55;
+      --line: rgba(109, 69, 43, 0.2);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background:
+        linear-gradient(90deg, rgba(255,255,255,0.07), rgba(0,0,0,0.04)),
+        repeating-linear-gradient(90deg, #53341f 0, #6d452b 44px, #865936 88px, #5c3923 132px);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+
+    main {
+      width: min(860px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: 48px 0 72px;
+    }
+
+    article {
+      padding: clamp(30px, 6vw, 70px);
+      background:
+        linear-gradient(135deg, rgba(255,255,255,0.78), rgba(255,248,235,0.94)),
+        var(--paper);
+      border: 1px solid rgba(255,255,255,0.58);
+      border-radius: 8px;
+      box-shadow: 0 28px 72px rgba(27, 16, 8, 0.38);
+    }
+
+    .kicker {
+      margin: 0 0 14px;
+      color: var(--green);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--wood-dark);
+      font-family: Georgia, "Times New Roman", "Songti SC", serif;
+      font-size: clamp(34px, 6vw, 58px);
+      font-weight: 500;
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .deck {
+      margin: 20px 0 38px;
+      max-width: 680px;
+      color: var(--muted);
+      font-size: clamp(16px, 2vw, 18px);
+      line-height: 1.75;
+    }
+
+    .rule {
+      width: 88px;
+      height: 3px;
+      margin: 0 0 38px;
+      background: linear-gradient(90deg, var(--green), rgba(31, 143, 85, 0));
+    }
+
+    p {
+      max-width: 720px;
+      margin: 0 0 1.18em;
+      font-size: clamp(17px, 2vw, 20px);
+      line-height: 1.85;
+    }
+
+    .lead {
+      color: var(--wood-dark);
+      font-family: Georgia, "Times New Roman", "Songti SC", serif;
+      font-size: clamp(24px, 4vw, 38px);
+      line-height: 1.55;
+    }
+
+    .mark {
+      color: var(--green);
+      text-decoration: underline;
+      text-decoration-thickness: 0.34em;
+      text-decoration-color: rgba(31, 143, 85, 0.24);
+      text-underline-offset: -0.08em;
+      text-decoration-skip-ink: none;
+    }
+
+    footer {
+      margin-top: 38px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 560px) {
+      main {
+        width: min(100% - 18px, 860px);
+        padding: 18px 0 36px;
+      }
+
+      article {
+        padding: 28px 20px 34px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <p class="kicker">Career · Startup Choices</p>
+      <h1>Your First Business</h1>
+      <p class="deck">第一家企业的任务不是一开始就改变世界，而是训练运营能力、人脉和资本。</p>
+      <div class="rule"></div>
+
+      <p class="lead">你的第一家企业不是为了变得超级成功。</p>
+
+      <p>它不是为了改变世界。</p>
+
+      <p>从你的词汇中删除“规模”这个词。</p>
+
+      <p>你的第一家企业应该是关于培养你的运营技能、人脉和资本。</p>
+
+      <p>开始做一些低风险的事情。做一些你可以研究其他公司的事情，这些公司正在做你想做的事情，这样你就可以学习。</p>
+
+      <p>一个你不需要服务1000个客户就能赚到好钱的地方，你只需要从蛋糕上切一小块。</p>
+
+      <p>一个你可以做出低风险决策并练习的地方。</p>
+
+      <p>一个你可以犯一大堆简单错误但仍然能生存的地方。</p>
+
+      <p>然后，后来，当你变得更好，你有更多的技能、资本和更大的人脉时，你可以在下一次尝试时做得更大。</p>
+
+      <p><span class="mark">这只是一个更好的方式。</span></p>
+
+      <footer>Original Chinese note.</footer>
+    </article>
+  </main>
+</body>
+</html>
