@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>People Who Build Big Things Protect Their Freedom</title>
+  <style>
+    :root {
+      --wood-dark: #4d2f1d;
+      --wood: #7a4d2f;
+      --wood-light: #b6845b;
+      --paper: #fff8ed;
+      --ink: #2c2119;
+      --muted: #7d6654;
+      --line: rgba(96, 61, 36, 0.2);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background:
+        linear-gradient(90deg, rgba(255,255,255,0.06), rgba(0,0,0,0.05)),
+        repeating-linear-gradient(90deg, #59351f 0, #70462a 46px, #8a5a36 92px, #654027 138px);
+      font-family: "Songti SC", "STSong", "Noto Serif CJK SC", "Source Han Serif SC", SimSun, serif;
+    }
+
+    .wrap { width: min(900px, calc(100% - 28px)); margin: 0 auto; padding: 44px 0 72px; }
+
+    article {
+      padding: clamp(30px, 7vw, 84px);
+      background: linear-gradient(135deg, rgba(255,255,255,0.76), rgba(255,247,232,0.92)), var(--paper);
+      border: 1px solid rgba(255,255,255,0.58);
+      border-radius: 8px;
+      box-shadow: 0 28px 76px rgba(29, 17, 8, 0.42);
+    }
+
+    .kicker {
+      margin: 0 0 18px;
+      color: var(--wood);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 720px;
+      margin: 0;
+      color: var(--wood-dark);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2.2rem, 6vw, 4.5rem);
+      font-weight: 500;
+      line-height: 1.06;
+    }
+
+    .rule { width: 88px; height: 3px; margin: 36px 0 42px; background: linear-gradient(90deg, var(--wood-light), rgba(182, 132, 91, 0)); }
+
+    p, blockquote { max-width: 720px; }
+
+    p {
+      margin: 0;
+      font-size: clamp(1.15rem, 2.2vw, 1.42rem);
+      line-height: 1.95;
+    }
+
+    blockquote {
+      margin: 0;
+      padding-left: 24px;
+      border-left: 4px solid var(--wood-light);
+      color: var(--wood-dark);
+      font-size: clamp(1.28rem, 2.5vw, 1.65rem);
+      font-style: italic;
+      line-height: 1.75;
+    }
+
+    footer { margin-top: 46px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-family: Arial, Helvetica, sans-serif; font-size: 0.86rem; }
+
+    @media (max-width: 560px) {
+      .wrap { width: min(100% - 18px, 900px); padding: 18px 0 36px; }
+      article { padding: 32px 24px 38px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <article>
+      <p class="kicker">Top Insights</p>
+      <h1>People Who Build Big Things Protect Their Freedom</h1>
+      <div class="rule"></div>
+
+      <blockquote>People who truly want to do something significant would often rather be a little poorer and a little less occupied during a low period than trap themselves for years in work that demands constant intensity while offering little freedom.</blockquote>
+
+      <p>It is not that they cannot endure hardship. It is that meaningful work requires long stretches of solitude, thought, and trial and error. When someone is exhausted every day and can think only about sleep, the mind has very little left to give.</p>
+
+      <footer>Translated and adapted from the original Chinese note.</footer>
+    </article>
+  </main>
+</body>
+</html>
